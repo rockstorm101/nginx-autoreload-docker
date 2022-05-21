@@ -46,4 +46,4 @@ As for any pre-built image usage, it is the image user's
 responsibility to ensure that any use of this image complies with any
 relevant licenses for all software contained within.
 
-[3]: https://github.com/rockstorm101/nginx-autoreload/blob/master/LICENSE
+[3]: https://github.com/rockstorm101/nginx-autoreload-docker/blob/master/LICENSE
