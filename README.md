@@ -9,7 +9,7 @@ configuration changes and exposes port 443.
 
 Use as a normal Nginx image. Add environment variable
 `AUTORELOAD_FILES` to track these files and auto-reload Nginx when any
-of this files gets modified. Example docker-compose.yml:
+of these files gets modified. Example docker-compose.yml:
 
 ```yaml
 services:
