@@ -1,5 +1,7 @@
-Image of Nginx which auto-reloads on configuration changes and exposes
-port 443.
+# Nginx + autoreload
+
+Image of Nginx which automatically reloads on configuration changes
+and exposes port 443.
 
 ## Usage
 
@@ -25,3 +27,19 @@ file/folder names.
 By default, this image uses the stable and Alpine-based Nginx image as
 a base. Use build argument `NGINX_VERSION` to change the base Nginx
 Docker image being built upon.
+
+## License
+
+View [license information][8] for the software contained in this
+image.
+
+As with all Docker images, these likely also contain other software
+which may be under other licenses (such as Nginx, etc from the base
+image, along with any direct or indirect dependencies of the primary
+software being contained).
+
+As for any pre-built image usage, it is the image user's
+responsibility to ensure that any use of this image complies with any
+relevant licenses for all software contained within.
+
+[8]: https://github.com/rockstorm101/nginx-autoreload/blob/master/LICENSE
