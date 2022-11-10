@@ -1,9 +1,12 @@
 # Nginx + autoreload
+[![GitHub Workflow Status][1]][2]
 
-Docker image of [Nginx][1] which automatically reloads on
+Docker image of [Nginx][3] which automatically reloads on
 configuration changes and exposes port 443.
 
-[1]: https://en.wikipedia.org/wiki/Nginx
+[1]: https://img.shields.io/github/workflow/status/rockstorm101/nginx-autoreload-docker/Build%20Docker%20Images
+[2]: https://hub.docker.com/r/rockstorm/nginx-autoreload
+[3]: https://en.wikipedia.org/wiki/Nginx
 
 ## Usage
 
@@ -26,15 +29,15 @@ file/folder names.
 
 ## Build Arguments
 
-By default, this image uses the stable and [Alpine-based][2] Nginx image as
+By default, this image uses the stable and [Alpine-based][4] Nginx image as
 a base. Use build argument `NGINX_VERSION` to change the base Nginx
 Docker image being built upon.
 
-[2]: https://hub.docker.com/_/nginx
+[4]: https://hub.docker.com/_/nginx
 
 ## License
 
-View [license information][3] for the software contained in this
+View [license information][5] for the software contained in this
 image.
 
 As with all Docker images, these likely also contain other software
@@ -46,4 +49,4 @@ As for any pre-built image usage, it is the image user's
 responsibility to ensure that any use of this image complies with any
 relevant licenses for all software contained within.
 
-[3]: https://github.com/rockstorm101/nginx-autoreload-docker/blob/master/LICENSE
+[5]: https://github.com/rockstorm101/nginx-autoreload-docker/blob/master/LICENSE
