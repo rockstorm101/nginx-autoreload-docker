@@ -2,7 +2,7 @@
 [![GitHub Workflow Status][1]][2]
 
 Docker image of [Nginx][3] which automatically reloads on
-configuration changes and exposes port 443.
+configuration changes.
 
 [1]: https://img.shields.io/github/workflow/status/rockstorm101/nginx-autoreload-docker/Build%20Docker%20Images
 [2]: https://hub.docker.com/r/rockstorm/nginx-autoreload
@@ -17,7 +17,7 @@ of these files gets modified. Example docker-compose.yml:
 ```yaml
 services:
   nginx:
-    image: rockstorm/nginx
+    image: rockstorm/nginx-autoreload
 
     environment:
       AUTORELOAD_FILES: "/etc/nginx/nginx.conf /etc/nginx/conf.d"

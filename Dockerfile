@@ -8,12 +8,10 @@ RUN set -ex; \
     ;
 
 # Set variables
-ENV AUTORELOAD_BIN=autoreload.sh \
+ENV AUTORELOAD_BIN=40-autoreload.sh \
     ENTRYPOINT_DIR=/docker-entrypoint.d
 ENV AUTORELOAD_PATH=${ENTRYPOINT_DIR}/${AUTORELOAD_BIN}
 
 # Install autoreload script on Nginx's docker-entrypoint
 COPY ${AUTORELOAD_BIN} ${AUTORELOAD_PATH}
 RUN set -eux; chmod 755 "${AUTORELOAD_PATH}"
-
-EXPOSE 443
