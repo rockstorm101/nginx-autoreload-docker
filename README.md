@@ -4,7 +4,7 @@
 Docker image of [Nginx][3] which automatically reloads on
 configuration changes.
 
-[1]: https://img.shields.io/github/workflow/status/rockstorm101/nginx-autoreload-docker/Build%20Docker%20Images
+[1]: https://img.shields.io/github/actions/workflow/status/rockstorm101/nginx-autoreload-docker/test-build.yml?branch=master
 [2]: https://hub.docker.com/r/rockstorm/nginx-autoreload
 [3]: https://en.wikipedia.org/wiki/Nginx
 
