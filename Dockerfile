@@ -1,4 +1,4 @@
-ARG NGINX_VERSION=1.22.1-alpine
+ARG NGINX_VERSION=1.24.0-alpine
 FROM nginx:$NGINX_VERSION
 
 # Install inotify
